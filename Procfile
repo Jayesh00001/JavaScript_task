@@ -1,0 +1,1 @@
+web gunicorn javascript_task.wsgi:application --log-file -
