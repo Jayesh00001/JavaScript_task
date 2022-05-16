@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-eyo53zzpp6hrf1%l+03ef30za2f_jwf+u2(#mn5chd+^j&8^&w
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ["javascript_task.herokuapp.com", "localhost"]
 
 
 # Application definition
@@ -92,10 +92,10 @@ WSGI_APPLICATION = 'javascript_task.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'd9j6314nvbiilk',
-       'USER': 'nsrvhvoeptlmvw',
-       'PASSWORD': '8dd85248cb7d4ed2432565f0dfb6f69de0b390d106966a9862599fd7101619f0',
-       'HOST': 'ec2-3-224-164-189.compute-1.amazonaws.com',
+       'NAME': 'd340vkvhlaa8qn',
+       'USER': 'lrhddxurkwsxez',
+       'PASSWORD': '7d89136d6c7be23798d1d07bb14de91b00d5f83a34e6cb12fd833fc05c63a869',
+       'HOST': 'ec2-54-86-224-85.compute-1.amazonaws.com',
        'PORT': '5432',
    }
 }
